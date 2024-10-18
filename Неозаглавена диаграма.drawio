@@ -31,29 +31,35 @@
         <mxCell id="Y6Pu--dFCFH1_GHjfbmQ-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="500" width="760" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="Y6Pu--dFCFH1_GHjfbmQ-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.318;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yxNfa2Mh4-2jATXLoK_B-3" target="Y6Pu--dFCFH1_GHjfbmQ-8">
+        <mxCell id="Y6Pu--dFCFH1_GHjfbmQ-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.339;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Y6Pu--dFCFH1_GHjfbmQ-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="330" y="490" as="sourcePoint" />
+            <mxPoint x="280" y="490" as="sourcePoint" />
+            <mxPoint x="370" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y6Pu--dFCFH1_GHjfbmQ-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.47;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Y6Pu--dFCFH1_GHjfbmQ-8" target="yxNfa2Mh4-2jATXLoK_B-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="375" y="490" as="sourcePoint" />
             <mxPoint x="440" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y6Pu--dFCFH1_GHjfbmQ-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.468;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yxNfa2Mh4-2jATXLoK_B-3" target="Y6Pu--dFCFH1_GHjfbmQ-8">
+        <mxCell id="Y6Pu--dFCFH1_GHjfbmQ-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.595;exitY=-0.011;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.513;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Y6Pu--dFCFH1_GHjfbmQ-8" target="yxNfa2Mh4-2jATXLoK_B-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="430" as="sourcePoint" />
-            <mxPoint x="440" y="380" as="targetPoint" />
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="380" y="390" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="Y6Pu--dFCFH1_GHjfbmQ-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.597;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yxNfa2Mh4-2jATXLoK_B-3" target="Y6Pu--dFCFH1_GHjfbmQ-8">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="430" as="sourcePoint" />
-            <mxPoint x="440" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Y6Pu--dFCFH1_GHjfbmQ-12" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="380" y="390" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Y6Pu--dFCFH1_GHjfbmQ-13" value="Slice" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="320" y="520" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6Pu--dFCFH1_GHjfbmQ-14" value="Include: Name, Initial state, Reducers." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="555" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6Pu--dFCFH1_GHjfbmQ-15" value="Export: Actions and reducer (slice.reducer)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="580" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y6Pu--dFCFH1_GHjfbmQ-16" value="Redux store import reducers from all Slices" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="400" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
